@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background: blue;
+    color: antiquewhite;
+    padding: 10px;
+}
+
+.pan{
+    background-color: burlywood;
+    margin: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-radius: 2em;
+}
+
+.lechuga{
+    background-color: rgb(53, 138, 67);
+    
+   height: 2em;
+
+}
+
+.jitomate{
+    background-color: rgba(243, 44, 9, 0.548);
+    height: 2em;
+   
+}
+
+.cebolla{
+    background-color: rgba(218, 206, 206, 0.979);
+    height: 2em;
+   
+}
+
+.carne{
+    background-color: rgba(59, 27, 27, 0.979);
+    height: 2em;
+   
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.enzanzha1{
+    flex-grow: 1;
+}
+.enzanzha2{
+    flex-grow: 2;
+}
+.enzanzha3{
+    flex-grow: 3;
+}

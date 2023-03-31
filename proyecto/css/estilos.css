@@ -1,0 +1,68 @@
+.grid-4{
+    display: grid;
+    grid-template-columns: .2fr 2fr 4.9fr  /*Se puede dividir por praciones o por porcentaje*/;
+}
+
+main{
+    padding: 0px;
+   margin-left: 20px;
+   margin-right: 20px;
+   background-color: #d8d9de;
+   border-radius: 10px;
+}
+header{
+    text-align: center;
+}
+.datos-contacto{
+    display: grid;
+    color: aliceblue;
+    grid-column: 2/3;
+    border:3px solid rgb(247, 247, 247);/* tamaño del borde, la linea es solida y el color */
+    background-color: #445868;
+}
+.datos-escolares{
+    display: grid;
+    grid-template-columns: .3fr 2fr 1fr /*Se puede dividir por praciones o por porcentaje*/;
+}
+.foto{
+    text-align: center;
+    padding-top: 1em;
+    border-radius:10px ;
+}
+img{
+    border-radius: 40%;
+}
+.informacion{
+    padding-left: 3.5em;
+    text-align: justify;
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.informacion-esc{
+    padding-left: 2em;
+    text-align: justify;
+    grid-column: 2/3;
+    color: rgb(34 45 54 / 78%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.nombre{
+    grid-column: 2/3;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 1em;
+}
+.subtitulo{
+    background-color: #445868;
+    color: aliceblue;
+    border-radius: 5px;
+    font-size: 1.3em;
+    padding-left: .5em;
+    border:3px solid rgb(247, 247, 247);/* tamaño del borde, la linea es solida y el color */
+}
+.subtitulo-info-per{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 2em;
+}
+

@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.grid-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr /*Se puede dividir por praciones o por porcentaje*/;
+}
+section{
+    background-color:blueviolet ;
+    border: 2px solid rgb(6, 240, 84);/* tamaño del borde, la linea es solida y el color */
+    grid-column: span 2;/*Se expande 2 columas el componenete*/
+}
+
+aside{
+    background-color: darkcyan;
+}
+
+@media screen and (min-width:500px) {
+    section{
+        background-color:rgba(19, 16, 34, 0.034) ;
+        border: 2px solid rgb(6, 240, 84);
+        grid-column: span 2;
+    }
+}
+@media screen and (max-width:500px) { /*Va afectar cuando la pantalla sea de este tramaño o mas pequeña */
+    section{
+        background-color:rgba(83, 51, 241, 0.63) ;
+        border: 2px solid rgb(6, 240, 84);
+        grid-column: span 4;
+    }
+}
+
+#principal{
+    background-color: brown;
+    grid-column: 1/4; /*Ocupa el espacio de la linea uno a la 4*/
+}
